@@ -1,3 +1,3 @@
-# matplotlib_cancer_medicine_challenge
+# Efficacy of Cancer Treatments in Mice
 
 This notebook reads in two csv files pertaining to a study of medical studies performed on mice with tumors. It then converts them to pandas dataframes, merges them, and cleans the data to delete mice that are repeated. It also creates a Summary Statistics table for all medicines studies, and later on calculates IQR data for four of the pharmaceuticals. Afterwards this IQR data gets plotted as a box and whisker plot, though beforehand the notebook includes some bar and pie charts. Additionally, the notebook creates a line chart comparing tumor size and time in treatment for one of the mice that was being experimented on. Lastly, the notebook creates a scatterplot and calculates the correllation coefficient for tumor volume vs weight in the mice being treated with Capomulin. Some observations are included at the beginning of the notebook.
